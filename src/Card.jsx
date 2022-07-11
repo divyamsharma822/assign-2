@@ -6,6 +6,7 @@ const Card = ({ picurl, title }) => {
         <div className='card'>
             <img className='pic' src={picurl} alt='' />
             <div className='title'>{title}</div>
+            
         </div>
     );
 };
